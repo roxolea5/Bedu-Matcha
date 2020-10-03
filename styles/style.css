@@ -2,6 +2,22 @@ body {
   background-color: #fffbf7;
 }
 
+.header {
+  margin: 40px 20px 0px 20px;
+}
+
+.header > * {
+  display: inline-block;
+}
+
+nav {
+  width: 50%;
+}
+
+li {
+  display: inline;
+}
+
 h1 {
   text-align: center;
   color: #8b8b8bcc;
@@ -21,4 +37,13 @@ p {
 button {
   color: #fff;
   background-color: #025157;
+}
+
+#div-prueba {
+  background-color: purple;
+  width: 50%;
+  height: 300px;
+  margin-top: 50px;
+  border: solid blue;
+  padding: 10px 15px 12px;
 }
