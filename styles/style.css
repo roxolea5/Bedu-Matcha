@@ -6,6 +6,7 @@ body {
   margin: 40px 20px 0px 20px;
   font-size: 0;
   height: 45px;
+  font-family: sans-serif;
 }
 
 .header > * {
@@ -38,8 +39,25 @@ body {
   font-weight: 600;
 }
 
+.actions > * {
+  margin: 0px 10px 0px 10px;
+}
+
+.actions > a {
+  color: #67b54b;
+}
+
+.actions > button {
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px 12px 14px;
+  border: 0px;
+  border-radius: 5px;
+}
+
 li {
   display: inline;
+  margin: 0px 15px 0px 15px;
 }
 
 h1 {
