@@ -4,14 +4,38 @@ body {
 
 .header {
   margin: 40px 20px 0px 20px;
+  font-size: 0;
+  height: 45px;
 }
 
 .header > * {
   display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  height: 100%;
+  line-height: 45px;
 }
 
-nav {
-  width: 50%;
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 li {
