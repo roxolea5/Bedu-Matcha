@@ -2,6 +2,19 @@ body {
   background-color: #fffbf7;
 }
 
+main {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
 .header {
   margin: 40px 20px 0px 20px;
   font-size: 0;
@@ -81,8 +94,27 @@ button {
   background-color: #025157;
 }
 
+.promo {
+  display: flex;
+  max-width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.explanatory-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
 .publish {
-  /* container styles if any */
+  flex: 1;
 }
 
 .publish h3 {
