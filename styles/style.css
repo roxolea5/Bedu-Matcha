@@ -74,14 +74,15 @@ li {
 
 h1 {
   text-align: center;
-  color: #8b8b8bcc;
+  color: #025157;
   font-family: "Alegreya", serif;
   font-size: 60px;
   margin-bottom: 24px;
-  border: solid;
+
+  /*border: solid;
   border-width: 3px;
   border-color: red;
-  border-radius: 20px;
+  border-radius: 20px;*/
 }
 
 p {
@@ -420,4 +421,62 @@ button {
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image {
+    display: none;
+  }
 }
