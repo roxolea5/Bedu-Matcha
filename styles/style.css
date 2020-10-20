@@ -249,11 +249,22 @@ button {
   flex: 1;
 }
 
-.success-stories .stories-carousel .card {
+.success-stories .stories-carousel .carousel-indicators {
+  position: initial; /** ó: position: static; */
+}
+
+.success-stories .stories-carousel .carousel {
   max-width: 370px;
+}
+
+.success-stories .stories-carousel .card {
   width: 100%;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.success-stories .stories-carousel figure {
+  margin-top: 0;
 }
 
 .success-stories .stories-carousel .card .card-media img {
@@ -287,9 +298,14 @@ button {
   max-width: 75%;
 }
 
-.success-stories .stories-carousel .card .card-body,
-.success-stories .stories-carousel .card .card-footer {
+.success-stories .stories-carousel .card .card-body {
   padding: 25px;
+}
+
+.success-stories .stories-carousel .card .card-footer {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .success-stories .stories-carousel .card .card-body h4 {
