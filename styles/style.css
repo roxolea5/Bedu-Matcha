@@ -506,4 +506,21 @@ button {
   .feature-image {
     display: none;
   }
+
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
+
+  .success-stories > .overview {
+    padding-right: unset;
+  }
+
+  .success-stories .stories-carousel .card {
+    min-height: 832px;
+  }
+
+  .success-stories .stories-carousel .card .card-media img {
+    max-height: unset;
+  }
 }
