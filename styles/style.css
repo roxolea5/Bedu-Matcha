@@ -20,13 +20,13 @@ main {
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
-}
 
-.header > * {
-  display: inline-block;
-  font-size: 16px;
-  height: 100%;
-  line-height: 45px;
+  > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45px;
+  }
 }
 
 .logo {
