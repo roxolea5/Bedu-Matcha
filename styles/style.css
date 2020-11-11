@@ -20,13 +20,13 @@ main {
   font-size: 0;
   height: 45px;
   font-family: sans-serif;
-}
 
-.header > * {
-  display: inline-block;
-  font-size: 16px;
-  height: 100%;
-  line-height: 45px;
+  > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45px;
+  }
 }
 
 .logo {
@@ -505,5 +505,22 @@ button {
 
   .feature-image {
     display: none;
+  }
+
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
+
+  .success-stories > .overview {
+    padding-right: unset;
+  }
+
+  .success-stories .stories-carousel .card {
+    min-height: 832px;
+  }
+
+  .success-stories .stories-carousel .card .card-media img {
+    max-height: unset;
   }
 }
